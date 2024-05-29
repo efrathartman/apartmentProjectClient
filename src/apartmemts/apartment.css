@@ -1,0 +1,55 @@
+
+.ulapartment {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  
+  }
+  ul{
+    margin-top: 90px;
+  }
+  @media (min-width: 576px) {
+    .ulapartment {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .ulapartment {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .ulapartment {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+  /* ulapartment */
+  /* ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 90px;
+    gap: 10px;
+    max-width: calc(3 * (100% / 4) + 2 * 10px);
+
+  }
+  
+  ul li {
+    flex: 1 1 auto;
+  } */
+  /* ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+ul li {
+    width: calc(33.33%  - 10px); /* Adjust width to create same gap as grid */
+ /* margin-bottom: 10px;
+}  */
+  

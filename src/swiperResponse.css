@@ -1,0 +1,28 @@
+.mySwiper {
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* margin-right: 140px; */
+  /* width: 430px; */
+   
+}
+
+.swiper-container {
+   /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.swiper-wrapper {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    max-width: 1200px;
+    
+  
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    color: olive;
+}

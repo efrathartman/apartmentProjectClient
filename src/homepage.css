@@ -1,0 +1,43 @@
+.contain-home-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.home-page-div{
+    background: #8080002e;
+    width: 125vh;
+    height: 50vh;
+    /*transform: translateY(50%);*/
+    border-radius: 15px;
+    border: 2px solid #808000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    transform: translateX(150%);
+    animation: slidein 1s ease-in-out forwards;
+}
+
+.home-page-div p{
+    font-size: larger;
+    color: #000;
+
+}
+
+.Typewriter__wrapper{
+    color: #808000;
+}
+
+@keyframes slidein{
+    80%{
+        transform: translateX(-15%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
